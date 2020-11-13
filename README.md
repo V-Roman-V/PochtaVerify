@@ -1,5 +1,5 @@
 # PochtaVerify
-Репозиторий, по хакатону Цифровой прорыв.
+Репозиторий, по хакатону Цифровой прорыв:
 https://leadersofdigital.ru/cabinet
 
 # Presentation
