@@ -13,8 +13,8 @@ class Package(models.Model):
                           help_text="Unique ID for package")
     title = models.CharField(max_length=200)
     author = models.ForeignKey('Author', on_delete=models.SET_NULL, null=True)
-    link = models.TextField(max_length=1000, help_text="link at server")
-    link_to_res = models.TextField(max_length=1000, help_text="link at server")
+    link = models.FileField(upload_to="input_files")
+    link_to_res = models.FileField(upload_to="output_files")
 
     STATUS = (
         ('s', 'Submitted'),
