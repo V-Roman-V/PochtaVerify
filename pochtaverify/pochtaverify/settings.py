@@ -38,6 +38,8 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'lk.apps.LkConfig',
+    'djcelery',
+    'djkombu',
 ]
 
 MIDDLEWARE = [
@@ -123,3 +125,9 @@ STATIC_URL = '/static/'
 
 MEDIA_URL = '/media/'
 MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
+import djcelery
+djcelery.setup_loader()
+
+CELERYBEAT_SCHEDULER="djcelery.schedulers.DatabaseScheduler"
+CELERY_ALWAYS_EAGER=False
+BROKER_BACKEND = "djkombu.transport.DatabaseTransport"

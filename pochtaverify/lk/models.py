@@ -12,7 +12,7 @@ class Package(models.Model):
     id = models.UUIDField(primary_key=True, default=uuid.uuid4,
                           help_text="Unique ID for package")
     title = models.CharField(max_length=200)
-    author = models.ForeignKey('Author', on_delete=models.SET_NULL, null=True)
+    author = models.ForeignKey('Author', null=True, on_delete=models.SET_NULL)
     link = models.FileField(upload_to="input_files")
     link_to_res = models.FileField(upload_to="output_files")
 

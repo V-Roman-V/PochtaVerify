@@ -20,14 +20,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f0c67eb5-58e9-4eea-9522-cbb9d8ba0a53" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/pochtaverify/lk/forms.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pochtaverify/lk/templates/home.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pochtaverify/lk/templates/package.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pochtaverify/pochtaverify/tasks.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pochtaverify/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/pochtaverify/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pochtaverify/lk/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/pochtaverify/lk/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pochtaverify/lk/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/pochtaverify/lk/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pochtaverify/lk/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/pochtaverify/lk/models.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pochtaverify/pochtaverify/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/pochtaverify/pochtaverify/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pochtaverify/pochtaverify/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/pochtaverify/pochtaverify/urls.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,7 +54,7 @@
       <option name="presentableId" value="Default" />
       <updated>1605348860767</updated>
       <workItem from="1605348861841" duration="63000" />
-      <workItem from="1605348931022" duration="2443000" />
+      <workItem from="1605348931022" duration="6400000" />
     </task>
     <servers />
   </component>
